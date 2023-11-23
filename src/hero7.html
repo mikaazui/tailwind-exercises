@@ -1,0 +1,51 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/dist/output.css" rel="stylesheet">
+    <title>Document</title>
+</head>
+
+<body class="bg-teal-500">
+    <header class="absolute h-16 w-full flex items-center gap-4 p-2">
+        <div
+            class="bg-rose-500 rounded-full flex w-[30px] md:w-9 items-end overflow-hidden absolute right-9 top-2 md:static">
+            <img src="../src/assets/Nav SVG/boy-svgrepo-com.svg" class="md:w-[40px]  mx-auto" alt="">
+        </div>
+        <div id="menu"
+            class=" hidden md:flex gap-3 absolute md:sticky  md:items-center top-5 right-3 p-3 md:w-full md:bg-transparent bg-white/20 backdrop-blur-sm rounded">
+            <nav class="font-bold list-none flex-cols md:gap-4 md:flex text-sm  md:bg-transparent bg-white/20 backdrop-blur-sm">
+                <li class="" href="#">Blush</li>
+                <li class="my-1" href="#">Collections</li>
+                <li href="#">Artist</li>
+            </nav>
+            <div class="bg-white flex border border-slate-400 grow rounded-md items-center text-sm">
+                <img src="../src/assets/Nav SVG/search.svg" class="w-5 mx-2" alt="">
+                <input type="text" class="grow outline-none rounded-md py-1" placeholder="Search">
+            </div>
+            <button
+                class="hidden lg:block bg-indigo-400 py-1 px-4 text-white font-normal rounded  border-indigo-400 border hover:transition ease-out duration-75 hover:bg-indigo-500 ">Download</button>
+            <button class="hidden lg:block border-black border py-1 px-4 font-normal rounded md:bg-white">Sign In</button>
+        </div>
+        <img src="../src/assets/Nav SVG/three-dots.svg"
+            class="absolute md:static right-0 max-md:top-2 lg:block w-8 h-8 hover:bg-gray-100 p-1 rounded-full"
+            id="burger">
+    </header>
+    <main class="min-h-screen flex justify-center pt-[70px] text-center">
+        <div class="">
+            <span class="text-5xl font-PlayFair font-bold text-white leading-none">Beautiful Doodles To <br> Tell Your
+                Story</span>
+            <span class="block pb-3 text-white pt-[2px]">Beautiful Doodles To Tell Your Story</span>
+            <button
+                class="bg-indigo-400 py-1.5 px-4 text-white font-normal rounded  border-indigo-400 border hover:transition ease-out duration-75 hover:bg-indigo-500 mr-2">Download</button>
+            <button class="bg-white border-black border py-1.5 px-4 font-normal rounded">Sign In</button>
+            <div class="max-md:py-7">
+                <img class="w-[600px] pt-3" src="../src/assets/svg/Home/Woman Power Social Distance.svg" alt="">
+            </div>
+        </div>
+
+
+    </main>
+    <script src="../src/assets/index.js"></script>
+</body>

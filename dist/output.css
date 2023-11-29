@@ -671,8 +671,8 @@ video {
   margin-left: 40px;
 }
 
-.ml-\[85px\]{
-  margin-left: 85px;
+.ml-\[75px\]{
+  margin-left: 75px;
 }
 
 .mr-2{
@@ -705,30 +705,6 @@ video {
 
 .mt-\[47px\]{
   margin-top: 47px;
-}
-
-.ml-\[90px\]{
-  margin-left: 90px;
-}
-
-.ml-\[100px\]{
-  margin-left: 100px;
-}
-
-.ml-\[200px\]{
-  margin-left: 200px;
-}
-
-.ml-\[150px\]{
-  margin-left: 150px;
-}
-
-.ml-\[70px\]{
-  margin-left: 70px;
-}
-
-.ml-\[75px\]{
-  margin-left: 75px;
 }
 
 .block{
@@ -1558,52 +1534,16 @@ video {
     right: -1.25rem;
   }
 
-  .md\:ml-32{
-    margin-left: 8rem;
-  }
-
   .md\:ml-\[100px\]{
     margin-left: 100px;
   }
 
-  .md\:mr-\[350px\]{
-    margin-right: 350px;
-  }
-
-  .md\:ml-44{
-    margin-left: 11rem;
-  }
-
-  .md\:ml-\[\]{
-    margin-left: ;
-  }
-
-  .md\:ml-\[80px\]{
-    margin-left: 80px;
-  }
-
-  .md\:ml-\[250px\]{
-    margin-left: 250px;
-  }
-
-  .md\:ml-\[1px\]{
-    margin-left: 1px;
-  }
-
-  .md\:ml-\[140px\]{
-    margin-left: 140px;
-  }
-
-  .md\:ml-\[150px\]{
-    margin-left: 150px;
-  }
-
-  .md\:ml-\[148px\]{
-    margin-left: 148px;
-  }
-
   .md\:ml-\[145px\]{
     margin-left: 145px;
+  }
+
+  .md\:mr-\[350px\]{
+    margin-right: 350px;
   }
 
   .md\:flex{

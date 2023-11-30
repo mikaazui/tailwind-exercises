@@ -639,11 +639,6 @@ video {
   margin-bottom: 1rem;
 }
 
-.my-auto{
-  margin-top: auto;
-  margin-bottom: auto;
-}
-
 .-ml-72{
   margin-left: -18rem;
 }
@@ -876,6 +871,10 @@ video {
   max-width: 36rem;
 }
 
+.max-w-6xl{
+  max-width: 72rem;
+}
+
 .grow{
   flex-grow: 1;
 }
@@ -980,8 +979,21 @@ video {
   border-radius: 0.75rem;
 }
 
+.rounded-t-\[20\%\]{
+  border-top-left-radius: 20%;
+  border-top-right-radius: 20%;
+}
+
 .border{
   border-width: 1px;
+}
+
+.border-2{
+  border-width: 2px;
+}
+
+.border-4{
+  border-width: 4px;
 }
 
 .border-r{
@@ -992,6 +1004,10 @@ video {
   border-top-width: 2px;
 }
 
+.border-s{
+  border-inline-start-width: 1px;
+}
+
 .border-black{
   --tw-border-opacity: 1;
   border-color: rgb(0 0 0 / var(--tw-border-opacity));
@@ -1000,6 +1016,11 @@ video {
 .border-gray-400{
   --tw-border-opacity: 1;
   border-color: rgb(156 163 175 / var(--tw-border-opacity));
+}
+
+.border-gray-500{
+  --tw-border-opacity: 1;
+  border-color: rgb(107 114 128 / var(--tw-border-opacity));
 }
 
 .border-indigo-400{
@@ -1020,6 +1041,21 @@ video {
 .border-slate-400{
   --tw-border-opacity: 1;
   border-color: rgb(148 163 184 / var(--tw-border-opacity));
+}
+
+.border-slate-900{
+  --tw-border-opacity: 1;
+  border-color: rgb(15 23 42 / var(--tw-border-opacity));
+}
+
+.border-slate-500{
+  --tw-border-opacity: 1;
+  border-color: rgb(100 116 139 / var(--tw-border-opacity));
+}
+
+.border-slate-700{
+  --tw-border-opacity: 1;
+  border-color: rgb(51 65 85 / var(--tw-border-opacity));
 }
 
 .border-slate-600{
@@ -1090,6 +1126,11 @@ video {
 .bg-slate-900{
   --tw-bg-opacity: 1;
   background-color: rgb(15 23 42 / var(--tw-bg-opacity));
+}
+
+.bg-slate-950{
+  --tw-bg-opacity: 1;
+  background-color: rgb(2 6 23 / var(--tw-bg-opacity));
 }
 
 .bg-teal-500{
@@ -1317,6 +1358,11 @@ video {
   line-height: 1;
 }
 
+.text-8xl{
+  font-size: 6rem;
+  line-height: 1;
+}
+
 .text-\[60px\]{
   font-size: 60px;
 }
@@ -1357,6 +1403,14 @@ video {
   font-weight: 600;
 }
 
+.font-thin{
+  font-weight: 100;
+}
+
+.italic{
+  font-style: italic;
+}
+
 .leading-none{
   line-height: 1;
 }
@@ -1368,6 +1422,11 @@ video {
 .text-black{
   --tw-text-opacity: 1;
   color: rgb(0 0 0 / var(--tw-text-opacity));
+}
+
+.text-slate-200{
+  --tw-text-opacity: 1;
+  color: rgb(226 232 240 / var(--tw-text-opacity));
 }
 
 .text-slate-400{

@@ -639,6 +639,11 @@ video {
   margin-bottom: 1rem;
 }
 
+.my-auto{
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
 .-ml-72{
   margin-left: -18rem;
 }
@@ -707,8 +712,6 @@ video {
   margin-top: 47px;
 }
 
-<<<<<<< HEAD
-=======
 .ml-auto{
   margin-left: auto;
 }
@@ -717,7 +720,6 @@ video {
   margin-right: 1rem;
 }
 
->>>>>>> 11d5be9 (adding some other lines -new header -footer)
 .block{
   display: block;
 }
@@ -789,6 +791,10 @@ video {
 
 .w-\[1400px\]{
   width: 1400px;
+}
+
+.w-\[1500px\]{
+  width: 1500px;
 }
 
 .w-\[1500px\]{
@@ -953,8 +959,6 @@ video {
   gap: 1.25rem;
 }
 
-<<<<<<< HEAD
-=======
 .gap-10{
   gap: 2.5rem;
 }
@@ -965,7 +969,6 @@ video {
   border-left-width: calc(1px * calc(1 - var(--tw-divide-x-reverse)));
 }
 
->>>>>>> 11d5be9 (adding some other lines -new header -footer)
 .divide-slate-500 > :not([hidden]) ~ :not([hidden]){
   --tw-divide-opacity: 1;
   border-color: rgb(100 116 139 / var(--tw-divide-opacity));
@@ -1003,12 +1006,12 @@ video {
   border-width: 1px;
 }
 
-.border-t-\[2px\]{
-  border-top-width: 2px;
-}
-
 .border-r{
   border-right-width: 1px;
+}
+
+.border-t-\[2px\]{
+  border-top-width: 2px;
 }
 
 .border-black{
@@ -1041,19 +1044,9 @@ video {
   border-color: rgb(148 163 184 / var(--tw-border-opacity));
 }
 
-.border-gray-600{
-  --tw-border-opacity: 1;
-  border-color: rgb(75 85 99 / var(--tw-border-opacity));
-}
-
 .border-slate-600{
   --tw-border-opacity: 1;
   border-color: rgb(71 85 105 / var(--tw-border-opacity));
-}
-
-.border-slate-500{
-  --tw-border-opacity: 1;
-  border-color: rgb(100 116 139 / var(--tw-border-opacity));
 }
 
 .bg-amber-300{
@@ -1266,6 +1259,10 @@ video {
   padding-left: px;
 }
 
+.pr-2{
+  padding-right: 0.5rem;
+}
+
 .pt-10{
   padding-top: 2.5rem;
 }
@@ -1306,28 +1303,12 @@ video {
   padding-top: 70px;
 }
 
-.pr-4{
-  padding-right: 1rem;
-}
-
-.pr-1{
-  padding-right: 0.25rem;
-}
-
-.pr-2{
-  padding-right: 0.5rem;
-}
-
 .text-center{
   text-align: center;
 }
 
 .text-start{
   text-align: start;
-}
-
-.text-end{
-  text-align: end;
 }
 
 .font-PlayFair{
@@ -1429,11 +1410,6 @@ video {
 .text-white{
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
-}
-
-.text-gray-300{
-  --tw-text-opacity: 1;
-  color: rgb(209 213 219 / var(--tw-text-opacity));
 }
 
 .shadow-md{
@@ -1576,10 +1552,6 @@ video {
   .max-md\:bg-emerald-400{
     --tw-bg-opacity: 1;
     background-color: rgb(52 211 153 / var(--tw-bg-opacity));
-  }
-
-  .max-md\:p-4{
-    padding: 1rem;
   }
 
   .max-md\:px-6{

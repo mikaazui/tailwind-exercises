@@ -1,11 +1,96 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/dist/output.css" rel="stylesheet">
+    <script src="https://unpkg.com/split-type"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
     <title>Document</title>
 </head>
-<body>
+
+<body class="bg-slate-950 text-slate-400">
+    <header class="p-4 gap-2 flex items-center">
+        <a href="../src/Home.html"
+            class="text-slate-400 sembold hover:text-slate-300 text-sm border-r border-slate-400 pr-2"> Home</a>
+        <a href="../src/index.html"
+            class="text-slate-400 hover:text-slate-300 sembold text-sm border-r border-slate-400 pr-2"> Collections</a>
+        <a href="/" class="text-slate-400 sembold text-sm hover:text-slate-300 grow"> About Creator</a>
+        <span>Felyn</span>
+        <img src="../src/assets/img/6e8f889db0eb028a3af6777d9af7b9d8.jpg" class="w-10 rounded-full" alt="">
+    </header>
+    <main class="min-h-screen grid grid-cols-1 justify-center pt-16">
+        <div class="mx-auto text-center">
+            <h1 id="text" class="text-8xl font-bold text-slate-200">Welcome Aboard,</h1>
+            <h1 id="text2" class="text-4xl block font-bold text-slate-200">Captain!</h1>
+        </div>
+        <div class="bg-slate-900 rounded-t-[20%] t-[100px]">
+            <div class="grid grid-cols-2 p-14 max-w-6xl mx-auto gap-3">
+                <div class="bg-slate-950 rounded-lg p-5 flex flex-col">
+                    <span class="text-xl font-bold text-slate-200">What is This?</span>
+                    <p class="text-lg pt-3 grow">Welcome to my portfolio, a curated collection that encapsulates the essence of our journey and accomplishments. Explore a diverse array of projects that reflect our dedication to innovation, creativity, and excellence. From past triumphs to future endeavors, this portfolio is a testament to our commitment to pushing boundaries and crafting meaningful experiences.</p>
+                    <p class="text-md font italic pt-3">-  Felyn / Creator</p>
+                </div>
+                <div class="bg-slate-950 rounded-lg p-5 flex flex-col">
+                    <span class="text-xl font-bold text-slate-200">Explore Further</span>
+                    <p class="text-lg pt-3 grow">Curiosity knows no bounds. If you're intrigued and eager to explore more, connect with us on social media, join our community, and be part of the ongoing narrative. Your journey through our portfolio is just the beginning of a shared adventure.</p>
+                    <p class="text-md font italic">-  Felyn / Creator</p>
+
+                </div>
     
+            </div>
+
+        </div>
+
+    </main>
+    <footer class="bg-slate-950 p-14 grid grid-cols-2 max-w-screen text-white">
+        <div class="border-r border-gray-500 mr-2">
+            <span class="text-xl font-bold">Connect With Our Community</span>
+            <p class= "text-sm pt-3">Join our vibrant Discord server and become a part of an enthusiastic community. Engage in real-time conversations, share your thoughts, and connect with like-minded individuals. Whether you're seeking advice, discussing the latest trends, or just looking to make new friends, our Discord community is the place to be.</p>
+        </div>
+        
+        <div class="items-center">
+            <span class="text-xl font-bold">Connect With The Creator</span>
+            <div class="flex gap-3 items-center pt-3">
+                <img src="../src/assets/index asstets/svg/discord-icon-svgrepo-com.svg" class="w-7" alt="">
+                    <a href="https://discord.gg/rrzprQNdgg">Discord / Community</a>
+            </div>
+            <!-- <div class="flex gap-3 items-center mt-3">
+                <img src="../src/assets/index asstets/svg/Twitter X Icon.svg" class="w-7" alt="">
+                <a href="https://twitter.com">X / MyrFellon</a>
+            </div> -->
+        </div>
+        
+    </footer>
+   
+
+    <script>
+
+        let text = new SplitType('#text');
+        gsap.from(text.chars, {
+            opacity: 0,
+            y: -40,
+            x: 0,
+            duration: 0.5,
+            stagger: 0.1    
+        })
+        let text2 = new SplitType('#text2');
+        gsap.from(text2.chars, {
+            opacity: 0,
+            y: -40,
+            x: 0,
+            duration: 0.5,
+            delay: 1,
+            stagger: 0.1
+        })
+
+
+
+
+    </script>
+
+
 </body>
+
 </html>

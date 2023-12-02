@@ -14,13 +14,10 @@
             <img src="../src/assets/Nav SVG/boy-svgrepo-com.svg" class="md:w-[40px]  mx-auto" alt="">
         </div>
         <div id="menu"
-            class=" hidden md:flex gap-3 absolute md:sticky  md:items-center top-5 right-3 p-3 md:w-full md:bg-transparent bg-white/20 backdrop-blur-sm rounded">
-<!--             FIXME, jgn pakai my untuk tengahin content, pakai items-center -->
-<!--             FIXME buang bg-white & backdrop-blur, karna jadi double backdrop dari parent sudah ada -->
-            <nav class="font-bold list-none flex-cols md:gap-4 md:flex text-sm  md:bg-transparent bg-white/20 backdrop-blur-sm">
-                <li class="" href="#">Blush</li>
-<!--                 FIXMe buang my -->
-                <li class="my-1" href="#">Collections</li>
+            class="hidden md:flex gap-3 absolute md:sticky md:items-center top-5 right-3 p-3 md:w-full md:bg-transparent bg-white/20 backdrop-blur-sm rounded">
+            <nav class="font-bold list-none flex-cols md:gap-4 md:flex text-sm items-center md:bg-transparent">
+                <li href="#">Blush</li>
+                <li href="#">Collections</li>
                 <li href="#">Artist</li>
             </nav>
             <div class="bg-white flex border border-slate-400 grow rounded-md items-center text-sm">
@@ -43,13 +40,23 @@
             <button
                 class="bg-indigo-400 py-1.5 px-4 text-white font-normal rounded  border-indigo-400 border hover:transition ease-out duration-75 hover:bg-indigo-500 mr-2">Download</button>
             <button class="bg-white border-black border py-1.5 px-4 font-normal rounded">Sign In</button>
-<!--             FIXME daripada py, lebih baik kasih margin top saja untuk memberi jarak antara content di atasnya. Jgn lupa set value di tiap screen size -->
-            <div class="max-md:py-7">
+            <div class="max-md:mt-7">
                 <img class="w-[600px] pt-3" src="../src/assets/svg/Home/Woman Power Social Distance.svg" alt="">
             </div>
         </div>
 
 
     </main>
-    <script src="../src/assets/index.js"></script>
+    <script>
+        const burger = document.querySelector('#burger');
+const menu = document.querySelector('#menu');
+
+burger.addEventListener('click', () => {
+    if (menu.classList.contains('hidden')) {
+        menu.classList.remove('hidden');
+    } else {
+        menu.classList.add('hidden');
+    }
+});
+    </script>
 </body>

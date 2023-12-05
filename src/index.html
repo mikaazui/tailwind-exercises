@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,56 +8,67 @@
     <title>Document</title>
 </head>
 <!--     FIXME, panggil ana pas ngerjain ini. kompleks soalnya -->
+
 <body class="bg-slate-950 text-slate-400">
-    <header class="p-4 gap-2 flex items-center">
-        <a href="../src/Home.html" class="text-slate-400 sembold hover:text-slate-300 text-sm border-r border-slate-400 pr-2"> Home</a>
-        <a href="../src/collection.html" class="text-slate-400 hover:text-slate-300 sembold text-sm border-r border-slate-400 pr-2"> Collections</a>
-        <a href="#" class="text-slate-400 sembold text-sm hover:text-slate-300 grow"> About Creator</a>
-        <span>Felyn</span>
-        <img src="../src/assets/img/6e8f889db0eb028a3af6777d9af7b9d8.jpg" class="w-10 rounded-full" alt="">
+    <header class="p-4 gap-2 flex justify-between items-center">
+        <div>
+            <a href="../src/Home.html"
+                class="text-slate-400 sembold hover:text-slate-300 text-sm border-r border-slate-400 pr-2"> Home</a>
+            <a href="../src/collection.html"
+                class="text-slate-400 hover:text-slate-300 sembold text-sm border-r border-slate-400 pr-2">
+                Collections</a>
+            <a href="#" class="text-slate-400 sembold text-sm hover:text-slate-300"> About Creator</a>
+        </div>
+        <div class="flex gap-3 items-center">
+            <span>Felyn</span>
+            <img src="../src/assets/img/6e8f889db0eb028a3af6777d9af7b9d8.jpg" class="w-10 rounded-full" alt="">
+        </div>
     </header>
 
-    <main class="min-h-screen p-10 text-slate-400">
-        <div class="grid justify-center gap-10">
-            <div class="flex gap-3 divide-slate-500">
-                <p  class="hover:text-slate-300"><a target="iframe" href="../src/Hero1.html">Hero 1</a></p>
-                <p  class="hover:text-slate-300"><a target="iframe" href="../src/Hero2.html">Hero 2</a></p>
-                <p  class="hover:text-slate-300"><a target="iframe" href="../src/Hero3.html">Hero 3</a></p>
-                <p  class="hover:text-slate-300"><a target="iframe" href="../src/Hero4.html">Hero 4</a></p>
-                <p  class="hover:text-slate-300"><a target="iframe" href="../src/Hero5.html">Hero 5</a></p>
-                <p  class="hover:text-slate-300"><a target="iframe" href="../src/Hero6.html">Hero 6</a></p>
-                <p  class="hover:text-slate-300"><a target="iframe" href="../src/Hero7.html">Hero 7</a></p>
-                <p  class="hover:text-slate-300"><a target="iframe" href="../src/Hero8.html">Hero 8</a></p>
-                <p  class="hover:text-slate-300"><a target="iframe" href="../src/Hero9.html">Hero 9</a></p>
-                <p  class="hover:text-slate-300"><a target="iframe" href="../src/Hero10.html">Hero 10</a></p>
-                <p  class="hover:text-slate-300"><a target="iframe" href="../src/Hero11.html">Hero 11</a></p>
-                <p  class="hover:text-slate-300"><a target="iframe" href="../src/Hero12.html">Hero 12</a></p>
+    <main class="min-h-screen p-5 md:p-10 text-slate-400 flex flex-col gap-10">
+            <div class="grid grid-cols-3 sm:grid-cols-6 lg:grid-cols-12 gap-3">
+                <p class="hover:text-slate-300 truncate text-center border border-slate-600 rounded-sm bg-slate-900"><a target="iframe" href="../src/Hero1.html">Hero 1</a></p>
+                <p class="hover:text-slate-300 truncate text-center border border-slate-600 rounded-sm bg-slate-900"><a target="iframe" href="../src/Hero2.html">Hero 2</a></p>
+                <p class="hover:text-slate-300 truncate text-center border border-slate-600 rounded-sm bg-slate-900"><a target="iframe" href="../src/Hero3.html">Hero 3</a></p>
+                <p class="hover:text-slate-300 truncate text-center border border-slate-600 rounded-sm bg-slate-900"><a target="iframe" href="../src/Hero4.html">Hero 4</a></p>
+                <p class="hover:text-slate-300 truncate text-center border border-slate-600 rounded-sm bg-slate-900"><a target="iframe" href="../src/Hero5.html">Hero 5</a></p>
+                <p class="hover:text-slate-300 truncate text-center border border-slate-600 rounded-sm bg-slate-900"><a target="iframe" href="../src/Hero6.html">Hero 6</a></p>
+                <p class="hover:text-slate-300 truncate text-center border border-slate-600 rounded-sm bg-slate-900"><a target="iframe" href="../src/Hero7.html">Hero 7</a></p>
+                <p class="hover:text-slate-300 truncate text-center border border-slate-600 rounded-sm bg-slate-900"><a target="iframe" href="../src/Hero8.html">Hero 8</a></p>
+                <p class="hover:text-slate-300 truncate text-center border border-slate-600 rounded-sm bg-slate-900"><a target="iframe" href="../src/Hero9.html">Hero 9</a></p>
+                <p class="hover:text-slate-300 truncate text-center border border-slate-600 rounded-sm bg-slate-900"><a target="iframe" href="../src/Hero10.html">Hero 10</a></p>
+                <p class="hover:text-slate-300 truncate text-center border border-slate-600 rounded-sm bg-slate-900"><a target="iframe" href="../src/Hero11.html">Hero 11</a></p>
+                <p class="hover:text-slate-300 truncate text-center border border-slate-600 rounded-sm bg-slate-900"><a target="iframe" href="../src/Hero12.html">Hero 12</a></p>
             </div>
-            <iframe src="../src/hero1.html" name="iframe" class="w-[1400px] mx-auto min-h-screen" frameborder="0"></iframe>
-    
-            
-        </div>
+            <div class="px-5 relative">
+                <div class="absolute z-20 w-full h-full"></div>
+                <iframe src="../src/hero1.html" name="iframe" class="w-full mx-auto min-h-screen rounded" frameborder="0"></iframe>
+            </div>
     </main>
 
     <footer class="bg-gray-950 p-14 grid grid-cols-2 max-w-screen text-white">
         <div class="border-r border-gray-500 mr-2">
             <span class="text-xl font-bold">Connect With Our Community</span>
-            <p class= "text-sm pt-3">Join our vibrant Discord server and become a part of an enthusiastic community. Engage in real-time conversations, share your thoughts, and connect with like-minded individuals. Whether you're seeking advice, discussing the latest trends, or just looking to make new friends, our Discord community is the place to be.</p>
+            <p class="text-sm pt-3">Join our vibrant Discord server and become a part of an enthusiastic community.
+                Engage in real-time conversations, share your thoughts, and connect with like-minded individuals.
+                Whether you're seeking advice, discussing the latest trends, or just looking to make new friends, our
+                Discord community is the place to be.</p>
         </div>
-        
+
         <div class="items-center">
             <span class="text-xl font-bold">Connect With The Creator</span>
             <div class="flex gap-3 items-center pt-3">
                 <img src="../src/assets/index asstets/svg/discord-icon-svgrepo-com.svg" class="w-7" alt="">
-                    <a href="https://discord.gg/rrzprQNdgg">Discord / Community</a>
+                <a href="https://discord.gg/rrzprQNdgg">Discord / Community</a>
             </div>
             <!-- <div class="flex gap-3 items-center mt-3">
                 <img src="../src/assets/index asstets/svg/Twitter X Icon.svg" class="w-7" alt="">
                 <a href="https://twitter.com">X / MyrFellon</a>
             </div> -->
         </div>
-        
+
     </footer>
-    
+
 </body>
+
 </html>

@@ -6,15 +6,14 @@
     <link href="/dist/output.css" rel="stylesheet">
     <title>Document</title>
 </head>
-<!--     FIXME mobile view: header / menu tidak muncul ketika di klik -->
 <body class="bg-white">
-    <header class="absolute h-16 w-full flex items-center gap-4 p-2">
+    <header class="absolute z-10 h-16 w-full flex items-center gap-4 p-2">
         <div
             class="bg-rose-500 rounded-full flex w-[30px] md:w-9 items-end overflow-hidden absolute right-9 top-2 md:static">
             <img src="../src/assets/Nav SVG/boy-svgrepo-com.svg" class="md:w-[40px]  mx-auto" alt="">
         </div>
         <div id="menu"
-            class=" hidden md:flex gap-3 absolute md:sticky  md:items-center top-5 right-3 p-3 md:w-full md:bg-transparent bg-white/30 backdrop-blur-sm max-md:shadow-lg rounded">
+            class=" hidden md:flex gap-3 absolute md:sticky  md:items-center top-5 right-3 p-3 md:w-full md:bg-transparent bg-white/30 max-md:backdrop-blur-sm max-md:shadow-lg rounded">
             <nav class="font-bold list-none flex-cols md:gap-4 md:flex text-sm  md:bg-transparent ">
                 <li class="" href="#">Blush</li>
                 <li class="max-md:my-1" href="#">Collections</li>
@@ -39,8 +38,7 @@
         <div class="flex items-center md:relative max-md:grow px-5 pb-10">
             <img class="md:absolute min-w-[60vw] md:-right-5" src="../src/assets/svg/Home/image-hero9.svg" alt="">
         </div>
-<!--         FIXME mobile view: atur padding & margin top. karena jarak atas terlalu tinggi -->
-        <div class="my-10 flex items-center px-10 pt-10">
+        <div class="my-14 flex items-center md:px-24 pt-10">
             <div class="grow max-md:text-center">
                 <p class="font-PlayFair font-bold text-5xl md:text-6xl leading-tight">Crafting Your<br>Doodles Story</p>
                 <p class="my-4 text-lg">Beautiful Doodles to Tell Your Story</p>
